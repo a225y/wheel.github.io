@@ -11,7 +11,7 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 		}
 /*******************nav********************/	
 .navbar {
-	background: #2F2F2F;
+	background: #000;
 	}
 /*******************hero********************/	
 #hero {
@@ -22,7 +22,6 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	background-attachment: fixed;
 	}
 #hero .hero-main{
-	flex-direction: column-reverse;
 	background: #000;
 	text-align: center;
 	height: 100px;
@@ -34,6 +33,14 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 #hero .hero-main span{
 	color: #F49C57;
 	}	
-/*******************pallax********************/
+/*******************card********************/
+#card{
+	background: #000;
+	height: auto;
+	}	
+#card .item h4,p{
+	color: #F1F1F1;
+	
+	}	
 
 /*******************main********************/
