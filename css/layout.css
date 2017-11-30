@@ -11,8 +11,18 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 		}
 /*******************nav********************/	
 .navbar {
-	background: #000;
+	background: #2E2E2E;
 	}
+.navbar-brand img {
+	width:50px;
+	height:50px;
+	}
+.navbar-collapse {
+	margin-right: 50px;
+	}		
+.navbar-nav .nav-item{
+	color:#FFF;
+	}	
 /*******************hero********************/	
 #hero {
 	background: url(../images/hero.jpg);
@@ -21,18 +31,7 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	background-position: center center;
 	background-attachment: fixed;
 	}
-#hero .hero-main{
-	background: #000;
-	text-align: center;
-	height: 100px;
-	}	
-#hero .hero-main .text{
 
-	color: #ECECEC;
-	}	
-#hero .hero-main span{
-	color: #F49C57;
-	}	
 /*******************card********************/
 #card{
 	background: #000;
