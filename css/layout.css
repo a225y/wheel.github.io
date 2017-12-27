@@ -64,6 +64,11 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	font-weight: bold;
 	}
 
+/*******************footer********************/
 
-
+#footer {
+    background: #2E2E2E;
+    height: 50px;
+    text-align: center;
+}
 
