@@ -13,8 +13,8 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	background-position: center center;
 	background-size: cover;
 	}
-		
-/*******************nav********************/	
+
+/*******************nav********************/
 .navbar {
 	background: #2E2E2E;
 	}
@@ -24,13 +24,13 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	}
 .navbar-collapse {
 	margin-right: 50px;
-	}		
+	}
 .navbar-nav .nav-item{
 	color:#FFF;
-	}	
-/*******************hero********************/	
+	}
+/*******************hero********************/
 #hero {
-	height: 600px;	
+	height: 600px;
 	background-image: url(../images/hero.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -46,7 +46,7 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 #item .col-6 {
 	-webkit-box-shadow: 1px 1px 7px #B1B1B1;
 	box-shadow: 1px 1px 7px #B1B1B1;
-	}	
+	}
 
 /*******************abot********************/
 #about {
@@ -68,7 +68,13 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 
 #footer {
     background: #2E2E2E;
-    height: 50px;
     text-align: center;
 }
-
+#footer .font-awesome  {
+  color: #ffc108;
+	font-size: 30px;
+	}
+#footer .font-awesome:hover {
+	color: #ffe8a5;
+	font-size: 30px;
+	}
