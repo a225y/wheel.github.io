@@ -31,21 +31,18 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 /*******************hero********************/
 #hero {
 	height: 600px;
-	background-image: url(../images/hero.jpg);
+	background-image: url(../images/item-bg.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	}
-@media (min-width: 576px) { 
-	background-image:url(/Users/suhanru/Desktop/wheel.github.io/images/hero.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-}
-	
 
 
 /*******************item********************/
+#item {
+	background-size: cover;
+	background-position: center center;
+}
 .item:hover{
 	transition: all ease-out 0.5s;
 	box-shadow: 1px 1px 10px #2E2E2E;
@@ -80,3 +77,5 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 #footer .font-awesome:hover {
 	color: #ffe8a5;
 	}
+
+
