@@ -70,6 +70,13 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	font-weight: bold;
 	}
 
+/*******************TSW********************/
+#box {
+	margin-top: 50px;
+}
+#box span{
+	font-weight: bold;
+}	
 /*******************footer********************/
 
 #footer {
