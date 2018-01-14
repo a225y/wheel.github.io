@@ -70,8 +70,24 @@ html,h1,h2,h3,h4,h5,h6,p,span,a{
 	font-weight: bold;
 	}
 
-/*******************TSW********************/
+/*******************product********************/
+#product {
+	margin-top: 100px;
+}
 
+#product .product-item {
+	background-color: #FFF;
+	height: 400px;
+}
+#product .card:hover{
+	box-shadow:1px 1px 10px #2E2E2E;
+	transition: ease-in-out 0.5s;
+}
+
+/*******************TSW********************/
+#box {
+	margin-top: 100px;
+}
 #box span{
 	font-weight: bold;
 }	
